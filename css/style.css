@@ -1,0 +1,197 @@
+@CHARSET "UTF-8";
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.home-header {	
+	background-image: url(../img/landing-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size:cover;
+	color: white;
+}
+
+/* The Text that goes on top of the main home image */
+.header-Large-Text {
+	font-size: 25px;
+}
+
+/* Creates a dark shadow behind the text, to make it easier to see it. */
+.text-dark-glow {
+	text-shadow: 0px 0px 10px #000000, 0px 0px 40px #000000;
+	font-weight: 700;
+}
+
+.image-dark-glow {
+	border-radius: 100px;
+	box-shadow: 0px 0px 10px #000000;
+	font-weight: 700;
+}
+
+#app-store-button {
+	background-image: url(../img/Itunes-store-button.png);
+	width:152px;
+	height:50px;
+}
+
+@media screen and (min-device-width:401px) {
+	.form-label {
+	}
+}
+
+.invalid {
+	padding-top: 15px;
+	color:red;
+	font-weight:bold;
+}
+
+#about {
+	background-color: #222222;
+}
+
+#about .header {
+	text-align: center;
+}
+
+#about header p {
+	text-align: center;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+body {
+	background-color:#F5F5F5;
+}
+
+h2 {
+	font-weight: 800;
+}
+
+/* The picture of a phone and a tablet */
+.big-little-picture {
+	max-height:100%;
+	max-width:100%;
+}
+
+.nav-background-green {
+	background-color: #2EC94F;
+}
+
+.home-button {
+	max-width: 200px;
+	position:relative;
+	left: -15px;
+}
+
+.nav-button-right {
+	max-width: 200px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+/* Used for the alternating green and light backgrounds on the about page */
+.green-background {
+	background-color: #E2FFE2;
+}
+.light-background {
+	background-color: white;
+}
+
+/* The border aroudn the testimonial containing stars and quote symbols */
+.testimonial-box-5-star {
+	background-image: url(../img/Testimonial-Box-5-Star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size:100% 100%;
+	max-width: 360px;
+}
+.testimonial-box-4-star {
+	background-image: url(../img/Testimonial-Box-4-Star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size:100% 100%;
+	max-width: 360px;
+}
+
+/* The image of the transition from white to green seen near the bottom of both pages */
+.wave-divider {
+	background-image: url(../img/Wave-divider.png);
+    background-repeat: no-repeat;
+	max-height:100%;
+	max-width:100%;
+}
+
+.btn-success {
+    width: 100%;
+}
+
+.glow-green-phone-pic {
+	border-radius: 35px;
+	box-shadow: 0px 0px 60px #FFFFFF;
+}
+
+.glow-green-button {
+	box-shadow: 0px 0px 20px #39B54A;
+	width: 220px;
+}
+
+.glow-green-input {
+	border:none;
+	box-shadow: 0px 0px 40px #89F49B;
+}
+
+.footer-contents {
+	text-align:left;
+	font-size: 11px;
+}
+
+.footer-links {
+	text-align:left;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.footer-bar {
+	max-width:100%;
+	min-height:1px;
+}
+
+#contactForm {
+	max-width: 500px;
+}
+.contact-Input {
+	max-width: 300px;
+	min-width:200px;
+}
+
+.redText {
+	color:red;
+}
+
+
+/*header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}*/
